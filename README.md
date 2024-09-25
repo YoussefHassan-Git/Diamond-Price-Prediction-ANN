@@ -11,7 +11,7 @@ This project aims to predict the price of diamonds based on various features suc
 - [Training](#training)
 - [Model Performance](#model-performance)
 - [Graph](#graph)
-
+- [Conclusion](#conclusion)
 ---
 
 ## 🛠️ Project Overview
@@ -72,5 +72,6 @@ The model is trained for 200 epochs with an early stopping mechanism to avoid ov
 ---
 ## Graph
 ![download](https://github.com/user-attachments/assets/94d05c6e-2e02-44d9-bd78-18c09deb35ee)
-
-
+---
+## 🧪 Conclusion
+The ANN model is capable of predicting diamond prices with a reasonable accuracy. The project demonstrates how machine learning can be applied to regression problems like price prediction.
