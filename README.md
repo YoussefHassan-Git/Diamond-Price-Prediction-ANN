@@ -54,11 +54,11 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(64),
     tf.keras.layers.Dense(32),
 
-    tf.keras.layers.Dense(1)
+    # Output layer (Dense)
+    model.add(Dense(1, activation='linear'))  # For regression tasks
 ])
 
-# Output layer (Dense)
-model.add(Dense(1, activation='linear'))  # For regression tasks
+
 ```
 ---
 
