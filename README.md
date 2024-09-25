@@ -59,7 +59,7 @@ model = tf.keras.Sequential([
 
 # Output layer (Dense)
 model.add(Dense(1, activation='linear'))  # For regression tasks
-
+```
 ---
 
 ## 🎓 Training
